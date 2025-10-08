@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>岡崎市の自然について</title>
+  <!-- 外部CSSはhead内でlinkとして置く -->
+  <link rel="stylesheet" href="css.html">
+  <style>
+    html,body{height:100%;margin:0;background:var(--main-bg);color:#222}
+    header{background:var(--title-bg);padding:40px 20px;text-align:center;box-shadow:0 2px 6px rgba(0,0,0,0.04);}
+    header h1{margin:0;font-size:28px;letter-spacing:0.02em}
+    main{max-width:980px;margin:28px auto;padding:0 18px}
+    .intro{margin-bottom:18px;padding:16px;background:#fff;border-radius:8px;border:1px solid var(--card-border)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+    .spot{background:#fff;border:1px solid var(--card-border);border-radius:var(--radius);overflow:hidden}
+    .spot .thumb{height:160px;background:linear-gradient(135deg,rgba(255,140,66,0.08),rgba(255,200,120,0.06));display:flex;align-items:center;justify-content:center}
+    .spot .thumb img{max-width:100%;max-height:100%;object-fit:cover}
+    .content{padding:12px}
+    .content h2{margin:0 0 8px 0;font-size:18px}
+    .meta{font-size:13px;color:#666;margin-bottom:8px}
+    details{border-top:1px dashed #f0f0f0;padding:10px}
+    summary{font-weight:600;cursor:pointer}
+    .access, .desc{font-size:14px;color:#333;margin-top:8px}
+    .btns{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+    .btn{padding:8px 10px;border-radius:8px;background:transparent;border:1px solid var(--accent);color:var(--accent);font-size:13px;text-decoration:none}
+    footer{max-width:980px;margin:20px auto;padding:8px 18px;color:#666;font-size:13px;border-top:1px solid #ccc}
+    @media (max-width:520px){header{padding:28px 14px}header h1{font-size:20px}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>岡崎市の自然について</h1>
+  </header>
+  <main>
+    <section class="intro">
+      <p>このサイトはマップに載っている岡崎市の代表的な自然スポットの情報をまとめました！</p>
+      <p>愛知商業の生徒が課題研究として作成いたしました。ぜひご活用ください！</p>
+    </section>
+
+    <section class="grid">
+
+      <!-- 枝垂桜 -->
+      <article class="spot">
+        <div class="thumb" aria-hidden="true">
+          <img src="https://okazaki-kanko.jp/image/rendering/attraction_image/1474/trim.1024/3/2?v=4b87175bae57cfdb1f5e63201769bc23f2b72af4" alt="枝垂桜の実際の写真" />
+        </div>
+        <div class="content">
+          <h2>枝垂桜（しだれざくら）</h2>
+          <h4>春（3月下旬〜4月上旬）が見頃です!</h4> 
+          <details>
+            <summary>詳しく</summary>
+            <div class="access">
+              <strong>交通アクセス</strong>
+              <p>名鉄東岡崎駅からバスやタクシーで行くことができ、岡崎駅から１時間ほどです</p>
+            </div>
+            <div class="desc">
+              <strong>場所</strong>
+              <p>岡崎公園周辺や乙川沿いの桜並木など（スポットにより点在しているのでマップ参照）</p>
+              <strong>特徴</strong>
+              <p>淡いピンクの長い枝がしなだれるように咲き、夜はライトアップされる場所もあります！静かに写真を撮ったり散歩するのに向いています！</p>
+            </div>
+          </details>
+          <div class="btns">
+            <a class="btn" href="https://maps.app.goo.gl/uNGvtt8T6dA88otk6" target="_blank">マップはこちら</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 鮎のやな -->
+      <article class="spot">
+        <div class="thumb" aria-hidden="true">
+          <img src="https://yahagi-ayu.net/archives/001/201702/large-92e78a056c1cd670668115574c56a0f7.jpg" />
+        </div>
+        <div class="content">
+          <h2>やな（鮎のやな）のつかみ取り</h2>
+          <h4>初夏〜秋（鮎の漁期）</h4>
+          <details>
+            <summary>詳しく</summary>
+            <div class="access">
+              <strong>交通アクセス</strong>
+              <p>周辺に駅はないため、名鉄本線本宿駅からバスで約２０分です。岡崎駅から約１時間３０分ほどです（男川やなさんのページより）
+</p>
+            </div>
+            <div class="desc">
+              <strong>場所</strong>
+              <p>乙川やその支流沿い、またはくらがり渓谷付近など。地元のやなが開催される期間は施設ごとに案内が出ます！
+              </p>
+              <strong>特徴</strong>
+              <p>川に設けた仕掛け（やな）に鮎がかかるのを見学できる伝統的な漁の様子。鮎の塩焼きなど地元グルメを楽しめます！</p>
+            </div>
+          </details>
+          <div class="btns">
+            <a class="btn" href="https://maps.app.goo.gl/Bs6stptzBzhT4oJ67" target="_blank">マップはこちら</a>
+            <a class="btn" href="http://home1.catvmics.ne.jp/~ns5021/otogawayana.htm" target="_blank">予約サイト</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- 家康公夏まつり -->
+      <article class="spot">
+        <div class="thumb" aria-hidden="true">
+          <img src="https://okazaki-kanko.jp/image/rendering/feature_paragraph_image/1975/trim.1024/3/2?v=268cba2f86143980e3f4d32f7ecc749086962b09">
+        </div>
+        <div class="content">
+          <h2>岡崎城下家康公夏まつり</h2>
+          <h4>夏（8月に開催）</h4>
+          <details>
+            <summary>詳しく</summary>
+            <div class="access">
+              <strong>交通アクセス</strong>
+              <p>岡崎公園駅前より徒歩約１０分ほどです！車ですと有料パーキングがあります。</p>
+            </div>
+            <div class="desc">
+              <strong>場所</strong>
+              <p>乙川、矢作川周辺（変更あり）</p>
+              <strong>特徴</strong>
+              <p>夜空を彩る大規模な打ち上げと、見物客の賑わいが特徴で、屋台や出店もあり、家族や友だちと楽しめる最高の夏のイベントです！</p>
+            </div>
+          </details>
+          <div class="btns">
+            <a class="btn" href="https://maps.app.goo.gl/UCKLqBgRRRtoti1o9" target="_blank">マップはこちら</a>
+          </div>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+    <h3>写真の引用元</h3>
+    <ul>
+      <li><a href="https://okazaki-kanko.jp/" target="_blank">岡崎市観光協会</a></li>
+      <li><a href="https://yahagi-ayu.net/" target="_blank">矢作鮎情報サイト</a></li>
+      <li><a href="https://okazaki-kanko.jp/feature/1975" target="_blank">岡崎城下家康公夏まつり公式</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
